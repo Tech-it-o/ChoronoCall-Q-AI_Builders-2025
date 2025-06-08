@@ -1,0 +1,4738 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-27.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดถกกันเรื่องโปรเจควันที่ 5 เมษา ตอนบ่ายโมงสิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-04-05', 'time': '13:15', 'title': 'ถกกันเรื่องโปรเจค'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-24.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 9 มิถุนายน ตอนสี่ทุ่ม มีนัดเทรนงาน ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-06-09', 'time': '22:00', 'title': 'เทรนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-19.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูตารางวันที่ 24 ตุลาคม หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-10-24'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-19.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดเล่นเกมกับเพื่อนวันที่ 11 ธันวา ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-12-11', 'title': 'เล่นเกมกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-14.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรวันที่ 4 กันยายน บ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-09-04'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-15.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "ดูนัดหมายวันอังคารที่จะถึงนี้ทั้งหมด"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-08-19'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-24.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดสอนงานวันที่ 30 มกรา ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2026-01-30', 'title': 'สอนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-17.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดสรุปงานวันที่ 28 มกราคม ตอนเที่ยงครึ่ง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-01-28', 'time': '12:30', 'title': 'สรุปงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-10.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดไปออกอีเว้นวันที่ 2 ตุลา ออกให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-10-02', 'title': 'ไปออกอีเว้น'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-30.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดเล่นเกมกับเพื่อนศุกร์หน้าออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-09-05', 'title': 'เล่นเกมกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-07.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "ช่วยลบที่นัดคุยลูกค้าจันทร์ที่จะถึงนี้ออกไปให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-09-08', 'title': 'คุยลูกค้า'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-02.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "ช่วยลบที่นัดวิดีโอคอล ไว้วันที่ 13 มกราคม ออกไปให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2026-01-13', 'title': 'วิดีโอคอล'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-17.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดอัปเดตงานวันที่ 19 มีนาคม ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-03-19', 'title': 'อัปเดตงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-20.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดเล่นเกมกับเพื่อนวันพุธนี้ตอนเที่ยงสี่สิบห้าให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-07-23', 'time': '12:45', 'title': 'เล่นเกมกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-12.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดประชุมวันที่ 16 ธันวาคม ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-12-16', 'title': 'ประชุม'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-08.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดคุยไอเดียของวันที่ 28 เมษา ไปเป็นเก้าโมงเช้าแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-04-28', 'time': '09:00', 'title': 'คุยไอเดีย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-13.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดคุยงานหัวข้อ AI Buildersวันอาทิตย์ที่จะถึงนี้ ไปเป็นสี่โมงเย็น 30 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-11-16', 'time': '16:30', 'title': 'คุยงานหัวข้อ AI Builders'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-13.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดติดตามงานพรุ่งนี้ตอนช่วงเช้าหกโมงครึ่งให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-10-14', 'time': '06:30', 'title': 'ติดตามงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-16.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดถกกันเรื่องโปรเจควันพุธหน้าตอนสี่ทุ่มสี่ห้าให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-04-23', 'time': '22:45', 'title': 'ถกกันเรื่องโปรเจค'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-03.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาคุยโปรเจกต์ของ วันที่ 27 ธันวาคม ไปเป็นหนึ่งทุ่มสิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-12-27', 'time': '19:15', 'title': 'คุยโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-20.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรมะรืนบ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-02-22'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-06.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูตารางมะรืนหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-04-08'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-15.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดอัปเดตงานมะรืนออกที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-03-17', 'title': 'อัปเดตงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-03.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดดีลลูกค้าพุธที่จะถึงนี้ออกที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-06-04', 'title': 'ดีลลูกค้า'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-26.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันอังคารนี้ให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-05-27'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-30.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูนัดหมายวันอาทิตย์หน้าหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-12-07'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-26.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "วันอาทิตย์ที่จะถึงนี้ตอนเที่ยงคืน มีนัดอัปเดตงาน ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-09-28', 'time': '00:00', 'title': 'อัปเดตงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-26.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลารีวิวงานของวันอาทิตย์หน้า ไปเป็นตีสี่ 45 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-12-28', 'time': '04:45', 'title': 'รีวิวงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-21.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดวางแผนวันที่ 23 มีนาคม ตอนสามทุ่ม"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-03-23', 'time': '21:00', 'title': 'วางแผน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-20.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูนัดหมายวันที่ 8 กันยาหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-09-08'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-25.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "วันอังคารนี้มีนัดอะไรบ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-09-30'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-28.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดสัมภาษณ์วันจันทร์ที่จะถึงนี้ตอนตีหนึ่ง 45 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-09-01', 'time': '01:45', 'title': 'สัมภาษณ์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-28.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดนำเสนอ วันที่ 30 มกรา ไปเป็นสามทุ่มสี่สิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-01-30', 'time': '21:45', 'title': 'นำเสนอ'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-11.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาตรวจงานของวันอังคารหน้า ไปเป็นสองทุ่มสี่สิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-08-19', 'time': '20:45', 'title': 'ตรวจงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-05.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันพุธหน้าให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-03-12'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-10.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดติดตามงานวันอาทิตย์ที่จะถึงนี้ตอนหนึ่งทุ่มครึ่ง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-04-13', 'time': '19:30', 'title': 'ติดตามงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-21.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดคุยงานหัวข้อ AI Buildersวันพฤหัสหน้าตอนห้าทุ่ม 15 นาทีให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-11-27', 'time': '23:15', 'title': 'คุยงานหัวข้อ AI Builders'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-27.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "วันเสาร์นี้ตอนห้าทุ่ม 45 นาที ผมมีนัดวิดีโอคอล ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-11-29', 'time': '23:45', 'title': 'วิดีโอคอล'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-07.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "ดูนัดหมายวันที่ 19 เมษายน ทั้งหมด"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-04-19'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-14.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันที่ 1 พฤจิ ให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-11-01'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-24.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "ดูนัดหมายวันจันทร์นี้ทั้งหมด"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-11-24'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-05.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดสรุปงานเสาร์หน้าตอนตีหนึ่ง 15 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-04-12', 'time': '01:15', 'title': 'สรุปงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-27.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดติดตามงาน วันที่ 26 พฤษภา เป็นช่วงเย็นหกโมงครึ่ง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-05-26', 'time': '18:30', 'title': 'ติดตามงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-22.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดคุยงานพรุ่งนี้ออกที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-05-23', 'title': 'คุยงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-14.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "ดูนัดหมายวันมะรืนทั้งหมด"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-04-16'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-16.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดเล่นเกมกับเพื่อนของวันพรุ่งนี้ ไปเป็นหนึ่งทุ่มแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-03-17', 'time': '19:00', 'title': 'เล่นเกมกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-15.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดคุยงานหัวข้อ AI Buildersจันทร์หน้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-05-26', 'title': 'คุยงานหัวข้อ AI Builders'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-22.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรวันที่ 23 พฤจิ บ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-11-23'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-03.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดพรีเซนต์งานวันที่ 16 กรกฎาคม ตอนเจ็ดโมงเช้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-07-16', 'time': '07:00', 'title': 'พรีเซนต์งาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-24.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดออกกำลังกายอาทิตย์หน้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-02-02', 'title': 'ออกกำลังกาย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-11.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรมะรืนบ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-05-13'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-21.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 8 กันยา ตอนตีหนึ่ง 30 นาที ผมมีนัดติดตามงาน ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-09-08', 'time': '01:30', 'title': 'ติดตามงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-22.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 22 สิงหาคม ตอนเก้าโมงสิบห้า มีนัดตรวจงาน ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-08-22', 'time': '09:15', 'title': 'ตรวจงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-04.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดตรวจงานวันจันทร์ที่จะถึงนี้ ไปเป็นสองทุ่มสิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-06-09', 'time': '20:15', 'title': 'ตรวจงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-10.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรอังคารที่จะถึงนี้บ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-04-15'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-09.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูตารางอาทิตย์ที่จะถึงนี้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-08-10'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-02.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "ช่วยลบที่นัดนำเสนอศุกร์ที่จะถึงนี้ออกไปให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-12-05', 'title': 'นำเสนอ'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-06.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดตรวจงานวันที่ 13 ตุลา ออกให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-10-13', 'title': 'ตรวจงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-01.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 12 สิงหา ตอนตีสี่ ผมมีนัดนำเสนอ ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-08-12', 'time': '04:00', 'title': 'นำเสนอ'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-27.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "ช่วยลบที่นัดสรุปงาน ไว้วันที่ 12 กุมภา ออกไปให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2026-02-12', 'title': 'สรุปงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-13.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดคุยโปรเจกต์วันที่ 31 มีนาคม ตอนตีสี่"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-03-31', 'time': '04:00', 'title': 'คุยโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-21.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาคุยไอเดียของวันศุกร์หน้า ไปเป็นสี่โมง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-10-31', 'time': '16:00', 'title': 'คุยไอเดีย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-18.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดทำการบ้านวันมะรืน ไปเป็นบ่ายโมง 45 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-11-20', 'time': '13:45', 'title': 'ทำการบ้าน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-24.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันพุธหน้าให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-05-07'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-05.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรบ้างวันศุกร์ที่จะถึงนี้"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-10-10'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-31.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูตารางพรุ่งนี้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-11-01'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-17.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดทำการบ้านกับเพื่อนศุกร์หน้าออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-05-23', 'title': 'ทำการบ้านกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-09.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 24 ตุลา ตอนบ่ายสองสิบห้า มีนัดนำเสนอ ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-10-24', 'time': '14:15', 'title': 'นำเสนอ'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-20.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 11 ธันวา ตอนบ่ายโมง 45 นาที มีนัดวางแผน ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-12-11', 'time': '13:45', 'title': 'วางแผน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-11.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดวิดีโอคอลวันที่ 7 กันยา ออกให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2026-09-07', 'title': 'วิดีโอคอล'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-27.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดมอบหมายงานวันที่ 29 พฤจิออกหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-11-29', 'title': 'มอบหมายงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-02.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรบ้างวันที่ 2 ธันวา"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-12-02'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-23.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดสอนงานอังคารที่จะถึงนี้ออกให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-03-25', 'title': 'สอนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-07.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันที่ 24 มกราคม ให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2026-01-24'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-01.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดคุยไอเดียวันเสาร์ที่จะถึงนี้ ไปเป็นตีสามสามสิบ"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-05-03', 'time': '03:30', 'title': 'คุยไอเดีย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-02.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรพุธหน้าบ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-06-11'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-11.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "ช่วยลบที่นัดปรึกษาโปรเจกต์อังคารนี้ออกไปให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-02-11', 'title': 'ปรึกษาโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-11.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดรีวิวงานเสาร์ที่จะถึงนี้ตอนเที่ยงสิบห้าให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-09-13', 'time': '12:15', 'title': 'รีวิวงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-23.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดคุยลูกค้าของวันที่ 6 เมษา ไปเป็นสี่ทุ่มสี่สิบห้าแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-04-06', 'time': '22:45', 'title': 'คุยลูกค้า'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-25.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาสัมภาษณ์ของ วันที่ 7 มกราคม ไปเป็นตีสี่ 45 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-01-07', 'time': '04:45', 'title': 'สัมภาษณ์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-17.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาทำการบ้านกับเพื่อนของวันมะรืน ไปเป็นสี่ทุ่ม"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-01-19', 'time': '22:00', 'title': 'ทำการบ้านกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-06.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดคุยไอเดียอาทิตย์ที่จะถึงนี้ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-01-12', 'title': 'คุยไอเดีย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-06.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "ช่วยลบที่นัดคุยงานอาทิตย์นี้ออกไปให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-07-06', 'title': 'คุยงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-09.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดติดตามงานอังคารที่จะถึงนี้"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-12-09', 'title': 'ติดตามงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-27.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "ช่วยลบที่นัดคุยไอเดีย ไว้วันที่ 15 พฤศจิกายน ออกไปให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-11-15', 'title': 'คุยไอเดีย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-15.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดเล่นเกมกับเพื่อนวันที่ 15 ธันวา ออกที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-12-15', 'title': 'เล่นเกมกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-07.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดถกกันเรื่องโปรเจคพุธนี้ออกที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-08-13', 'title': 'ถกกันเรื่องโปรเจค'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-20.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรบ้างวันที่ 3 เมษา"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-04-03'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-16.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาเล่นเกมกับเพื่อนของ วันที่ 4 กรกฎา ไปเป็นแปดโมงเช้า 15 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-07-04', 'time': '08:15', 'title': 'เล่นเกมกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-03.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "วันจันทร์นี้ตอนหกโมงเช้าสี่สิบห้า ผมมีนัดประชุม ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-01-06', 'time': '06:45', 'title': 'ประชุม'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-24.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดตรวจงาน วันที่ 17 เมษา เป็นตีสองสิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-04-17', 'time': '02:15', 'title': 'ตรวจงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-25.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดนำเสนอวันที่ 4 พฤษภาคม"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-05-04', 'title': 'นำเสนอ'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-23.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูนัดหมายวันศุกร์หน้าหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-05-02'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-09.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรบ้างวันที่ 12 กันยายน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-09-12'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-09.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดอัปเดตงานของวันที่ 14 พฤษภาคม ไปเป็นสองทุ่มครึ่งแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-05-14', 'time': '20:30', 'title': 'อัปเดตงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-09.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดไปออกอีเว้น วันที่ 21 เมษายน เป็นตีห้า 15 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-04-21', 'time': '05:15', 'title': 'ไปออกอีเว้น'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-10.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาติดตามงานของ วันที่ 13 ตุลาคม ไปเป็นเที่ยงสี่สิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-10-13', 'time': '12:45', 'title': 'ติดตามงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-13.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูนัดหมายวันศุกร์ที่จะถึงนี้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-02-14'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-06.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 10 เมษา ตอนตีสามครึ่ง ผมมีนัดนำเสนอ ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-04-10', 'time': '03:30', 'title': 'นำเสนอ'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-02.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรวันที่ 5 กันยา บ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-09-05'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-17.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันที่ 9 สิงหา ให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-08-09'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-29.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันจันทร์ที่จะถึงนี้ให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-12-01'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-10.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันที่ 11 มิถุนายน ให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2026-06-11'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-26.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดปรึกษาโปรเจกต์วันที่ 6 มิถุนายน ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-06-06', 'title': 'ปรึกษาโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-28.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดตรวจงานของวันที่ 29 มีนาคม ไปเป็นห้าทุ่มสามสิบแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-03-29', 'time': '23:30', 'title': 'ตรวจงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-13.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดทำการบ้านวันที่ 22 ธันวาคม"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-12-22', 'title': 'ทำการบ้าน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-28.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรวันที่ 1 ตุลาคม บ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2026-10-01'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-19.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดสรุปงานวันพฤหัสที่จะถึงนี้ เป็นทุ่มสี่ห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-03-20', 'time': '19:45', 'title': 'สรุปงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-08.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรวันที่ 20 ธันวา บ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-12-20'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-07.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูนัดหมายวันพุธที่จะถึงนี้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-02-12'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-25.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดพรีเซนต์งานวันอังคารนี้ตอนสี่ทุ่มสี่สิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-01-28', 'time': '22:45', 'title': 'พรีเซนต์งาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-20.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดพรีเซนต์งานอาทิตย์หน้าออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-01-26', 'title': 'พรีเซนต์งาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-07.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันที่ 12 พฤจิ ให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-12-12'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-28.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดสรุปงานวันที่ 15 เมษา ออกให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2026-04-15', 'title': 'สรุปงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-25.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดประชุมวันอังคารนี้ เป็นตีสามครึ่ง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-02-25', 'time': '03:30', 'title': 'ประชุม'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-19.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 8 พฤษภา ตอนสี่โมงสี่สิบห้า ผมมีนัดสัมภาษณ์ ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-05-08', 'time': '16:45', 'title': 'สัมภาษณ์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-05.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดสัมภาษณ์วันที่ 30 ธันวาคม ออกให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-12-30', 'title': 'สัมภาษณ์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-18.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดดีลลูกค้าวันที่ 28 กันยายน ตอนตีสี่"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-09-28', 'time': '04:00', 'title': 'ดีลลูกค้า'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-01.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 11 กันยายน มีนัดอะไรบ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-09-11'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-28.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรบ้างวันที่ 14 กรกฎา"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-07-14'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-09.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดติดตามงานพุธที่จะถึงนี้ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-11-12', 'title': 'ติดตามงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-25.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดวิดีโอคอลของวันวันนี้ ไปเป็นสามทุ่มสามสิบแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-07-25', 'time': '21:30', 'title': 'วิดีโอคอล'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-26.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดเทรนงานวันที่ 14 ตุลาคม ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-10-14', 'title': 'เทรนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-03.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "ดูนัดหมายวันอาทิตย์หน้าทั้งหมด"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-12-14'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-16.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดวิดีโอคอลวันที่ 26 มกรา ตอนช่วงเช้าหกโมงสิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-01-26', 'time': '06:15', 'title': 'วิดีโอคอล'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-22.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "ช่วยลบที่นัดออกกำลังกายอังคารนี้ออกไปให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-03-25', 'title': 'ออกกำลังกาย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-02.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูนัดหมายวันเสาร์หน้าหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-03-15'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-28.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดคุยงานวันที่ 25 เมษายน ตอนสิบโมงเช้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-04-25', 'time': '10:00', 'title': 'คุยงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-17.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาสัมภาษณ์ของ วันที่ 6 สิงหา ไปเป็นห้าโมงเย็น"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-08-06', 'time': '17:00', 'title': 'สัมภาษณ์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-06.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดคุยงานหัวข้อ AI Buildersวันอังคารนี้ตอนเที่ยงคืนสี่สิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-01-07', 'time': '00:45', 'title': 'คุยงานหัวข้อ AI Builders'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-09.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดทำการบ้านกับเพื่อนวันจันทร์นี้ตอนเก้าโมงสิบห้าให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-01-13', 'time': '09:15', 'title': 'ทำการบ้านกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-03.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดคุยลูกค้าวันเสาร์ที่จะถึงนี้ เป็นเจ็ดโมงสี่สิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-08-09', 'time': '07:45', 'title': 'คุยลูกค้า'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-09.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรบ้างวันที่ 1 กุมภาพันธ์"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2026-02-01'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-13.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูตารางพุธที่จะถึงนี้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-07-16'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-19.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันที่ 6 พฤศจิกายน ให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-11-06'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-02.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดออกกำลังกายของวันที่ 1 ตุลา ไปเป็นห้าทุ่มสามสิบแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-10-01', 'time': '23:30', 'title': 'ออกกำลังกาย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-02.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดไปออกอีเว้นวันวันนี้ เป็นหนึ่งทุ่ม 15 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-03-02', 'time': '19:15', 'title': 'ไปออกอีเว้น'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-19.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาดีลลูกค้าของ วันที่ 20 สิงหา ไปเป็นสี่โมงเย็น"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-08-20', 'time': '16:00', 'title': 'ดีลลูกค้า'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-17.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 15 ธันวา ตอนตีหนึ่งสี่สิบห้า ผมมีนัดเล่นเกมกับเพื่อน ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-12-15', 'time': '01:45', 'title': 'เล่นเกมกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-06.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูนัดหมายวันที่ 3 มีนาหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2026-03-03'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-09.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดไปออกอีเว้นวันนี้ตอนตีหนึ่งครึ่งให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-03-09', 'time': '01:30', 'title': 'ไปออกอีเว้น'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-06.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรพฤหัสหน้าบ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-11-13'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-25.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดคุยงานหัวข้อ AI Builders วันที่ 27 มกราคม ไปเป็นบ่ายสองโมง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-01-27', 'time': '14:00', 'title': 'คุยงานหัวข้อ AI Builders'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-13.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดสอนงานวันที่ 7 มกรา ตอนเก้าโมงเช้า 15 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-01-07', 'time': '09:15', 'title': 'สอนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-02.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดออกกำลังกายวันที่ 31 มกราคม ตอนสี่โมงสี่สิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-01-31', 'time': '16:45', 'title': 'ออกกำลังกาย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-15.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาออกกำลังกายของวันจันทร์ที่จะถึงนี้ ไปเป็นเที่ยงสี่สิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-02-17', 'time': '12:45', 'title': 'ออกกำลังกาย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-30.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดเทรนงานของวันอาทิตย์หน้า ไปเป็นเที่ยง 30 นาทีแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-08-10', 'time': '12:30', 'title': 'เทรนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-17.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "วันพุธนี้มีนัดอะไรบ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-10-22'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-20.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรบ้างวันอาทิตย์ที่จะถึงนี้"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-10-26'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-26.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาไปออกอีเว้นของ วันที่ 7 ตุลาคม ไปเป็นตีห้าสี่ห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-10-07', 'time': '05:45', 'title': 'ไปออกอีเว้น'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-19.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดสอนงานวันที่ 6 กันยาออกหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-09-06', 'title': 'สอนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-28.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดปรึกษาโปรเจกต์วันที่ 23 กรกฎาคม ตอนสิบโมงเช้า 45 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-07-23', 'time': '10:45', 'title': 'ปรึกษาโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-28.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 16 มิถุนายน ตอนตีสี่ 15 นาที มีนัดอัปเดตงาน ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-06-16', 'time': '04:15', 'title': 'อัปเดตงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-18.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดปรึกษาโปรเจกต์วันที่ 19 เมษา"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2026-04-19', 'title': 'ปรึกษาโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-03.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดสอนงานมะรืนออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-08-05', 'title': 'สอนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-19.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 12 ตุลาคม ตอนเที่ยงคืน มีนัดตรวจงาน ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-10-12', 'time': '00:00', 'title': 'ตรวจงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-06.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 13 มีนา ตอนตีสี่สิบห้า มีนัดพรีเซนต์งาน ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-03-13', 'time': '04:15', 'title': 'พรีเซนต์งาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-14.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดตรวจงาน วันที่ 27 พฤษภาคม เป็นหกโมงเช้า 30 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-05-27', 'time': '06:30', 'title': 'ตรวจงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-17.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดสอนงานวันอังคารนี้ตอนบ่ายสามโมง 15 นาทีให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-10-21', 'time': '15:15', 'title': 'สอนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-15.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "วันจันทร์นี้มีนัดอะไรบ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-01-20'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-15.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดปรึกษาโปรเจกต์วันศุกร์นี้ เป็นเที่ยง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-08-15', 'time': '12:00', 'title': 'ปรึกษาโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-07.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดนำเสนอ วันที่ 16 พฤศจิกายน ไปเป็นเที่ยงสี่ห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-11-16', 'time': '12:45', 'title': 'นำเสนอ'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-22.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดสรุปงานวันอังคารนี้ออกหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-04-22', 'title': 'สรุปงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-14.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดดีลลูกค้าศุกร์นี้ตอนช่วงเย็นหกโมงสี่สิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-12-19', 'time': '18:45', 'title': 'ดีลลูกค้า'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-15.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดนำเสนอ วันที่ 26 ธันวาคม ไปเป็นบ่ายสองโมง 30 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-12-26', 'time': '14:30', 'title': 'นำเสนอ'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-13.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 28 ตุลาคม ตอนบ่ายสองสี่สิบห้า มีนัดวิดีโอคอล ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-10-28', 'time': '14:45', 'title': 'วิดีโอคอล'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-01.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดถกกันเรื่องโปรเจค วันที่ 10 มีนา ไปเป็นทุ่มสี่สิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-03-10', 'time': '19:45', 'title': 'ถกกันเรื่องโปรเจค'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-07.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 27 สิงหา ตอนตีหนึ่งครึ่ง ผมมีนัดสรุปงาน ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-08-27', 'time': '01:30', 'title': 'สรุปงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-03.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันเสาร์หน้าให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-03-15'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-15.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "วันจันทร์นี้ตอนเจ็ดโมง มีนัดคุยไอเดีย ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-08-18', 'time': '07:00', 'title': 'คุยไอเดีย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-21.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูตารางเสาร์ที่จะถึงนี้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-04-26'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-20.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดออกกำลังกายเสาร์ที่จะถึงนี้ออกให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-03-22', 'title': 'ออกกำลังกาย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-15.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดติดตามงานของวันที่ 5 กรกฎา ไปเป็นบ่ายสองโมงครึ่งแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-07-05', 'time': '14:30', 'title': 'ติดตามงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-15.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดวิดีโอคอลอังคารหน้าออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-01-28', 'title': 'วิดีโอคอล'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-14.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดติดตามงานวันที่ 9 สิงหาคม ตอนตีสาม 45 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-08-09', 'time': '03:45', 'title': 'ติดตามงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-23.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดสอนงานพุธหน้าตอนเที่ยง 15 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-02-05', 'time': '12:15', 'title': 'สอนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-10.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "วันพุธหน้ามีนัดอะไรบ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-05-21'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-16.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดเล่นเกมกับเพื่อนของวันวันนี้ ไปเป็นห้าโมงเย็น 30 นาทีแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-09-16', 'time': '17:30', 'title': 'เล่นเกมกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-11.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "ช่วยลบที่นัดสรุปงานอังคารที่จะถึงนี้ออกไปให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-05-13', 'title': 'สรุปงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-11.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันที่ 28 พฤษภา ให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2026-05-28'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-13.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดถกกันเรื่องโปรเจควันที่ 16 กุมภา ตอนสามทุ่มสี่ห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-02-16', 'time': '21:45', 'title': 'ถกกันเรื่องโปรเจค'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-03.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาวิดีโอคอลของ วันที่ 3 มีนา ไปเป็นตีสองสิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-03-03', 'time': '02:15', 'title': 'วิดีโอคอล'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-12.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดคุยงานหัวข้อ AI Buildersวันพรุ่งนี้ เป็นสี่ทุ่มครึ่ง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-12-13', 'time': '22:30', 'title': 'คุยงานหัวข้อ AI Builders'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-08.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดสัมภาษณ์ วันที่ 18 สิงหาคม เป็นบ่ายโมง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-08-18', 'time': '13:00', 'title': 'สัมภาษณ์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-10.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดคุยโปรเจกต์ วันที่ 13 พฤจิ ไปเป็นเที่ยง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-11-13', 'time': '12:00', 'title': 'คุยโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-25.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดเทรนงานจันทร์นี้ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-11-24', 'title': 'เทรนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-17.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดพรีเซนต์งานวันมะรืนออกหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-09-19', 'title': 'พรีเซนต์งาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-22.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "ช่วยลบที่นัดทำการบ้านกับเพื่อน ไว้วันที่ 4 ตุลา ออกไปให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-10-04', 'title': 'ทำการบ้านกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-07.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรวันที่ 14 พฤษภา บ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2026-05-14'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-09.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "วันพฤหัสหน้าตอนตีหนึ่งครึ่ง มีนัดคุยงานหัวข้อ AI Builders ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-09-18', 'time': '01:30', 'title': 'คุยงานหัวข้อ AI Builders'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-04.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดไปออกอีเว้นวันอังคารหน้าตอนสามทุ่ม 15 นาทีให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-07-15', 'time': '21:15', 'title': 'ไปออกอีเว้น'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-19.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "วันจันทร์ที่จะถึงนี้ตอนสามทุ่ม มีนัดพรีเซนต์งาน ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-12-22', 'time': '21:00', 'title': 'พรีเซนต์งาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-15.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 17 พฤจิ มีนัดอะไรบ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-11-17'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-07.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดวางแผนอาทิตย์นี้ออกให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-03-09', 'title': 'วางแผน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-28.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดมอบหมายงานวันที่ 6 เมษายน ตอนสองทุ่ม 30 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-04-06', 'time': '20:30', 'title': 'มอบหมายงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-10.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดพรีเซนต์งานวันเสาร์นี้ ไปเป็นทุ่มสิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-03-15', 'time': '19:15', 'title': 'พรีเซนต์งาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-20.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันที่ 25 ตุลา ให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2026-10-25'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-29.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาปรึกษาโปรเจกต์ของวันจันทร์นี้ ไปเป็นเก้าโมงสิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-08-04', 'time': '09:15', 'title': 'ปรึกษาโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-24.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "วันวันนี้ตอนสี่ทุ่ม 15 นาที ผมมีนัดอัปเดตงาน ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-12-24', 'time': '22:15', 'title': 'อัปเดตงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-07.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดวางแผนของวันพุธที่จะถึงนี้ ไปเป็นเที่ยงแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-09-10', 'time': '12:00', 'title': 'วางแผน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-16.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูตารางวันที่ 28 กรกฎา หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-07-28'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-04.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดออกกำลังกายของวันอาทิตย์ที่จะถึงนี้ ไปเป็นห้าโมงเย็น 15 นาทีแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-11-09', 'time': '17:15', 'title': 'ออกกำลังกาย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-09.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาเทรนงานของวันวันนี้ ไปเป็นตีสี่สิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-12-09', 'time': '04:15', 'title': 'เทรนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-21.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดทำการบ้านวันนี้ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-04-21', 'title': 'ทำการบ้าน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-18.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรบ้างวันที่ 10 เมษายน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2026-04-10'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-17.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดคุยงานหัวข้อ AI Buildersวันที่ 6 สิงหาคม ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-08-06', 'title': 'คุยงานหัวข้อ AI Builders'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-24.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "วันอาทิตย์หน้ามีนัดอะไรบ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-12-28'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-05.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาพรีเซนต์งานของวันพรุ่งนี้ ไปเป็นห้าทุ่ม"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-12-06', 'time': '23:00', 'title': 'พรีเซนต์งาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-25.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดถกกันเรื่องโปรเจค วันที่ 6 มิถุนา ไปเป็นตีห้า 30 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-06-06', 'time': '05:30', 'title': 'ถกกันเรื่องโปรเจค'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-08.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดรีวิวงานวันที่ 27 มกรา ออกให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2026-01-27', 'title': 'รีวิวงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-28.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดสรุปงานวันที่ 27 พฤศจิกายน ออกที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-11-27', 'title': 'สรุปงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-27.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดดีลลูกค้าเสาร์หน้าตอนช่วงเช้าหกโมงสิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-09-06', 'time': '06:15', 'title': 'ดีลลูกค้า'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-30.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดพรีเซนต์งานมะรืนออกที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-07-01', 'title': 'พรีเซนต์งาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-24.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "ช่วยลบที่นัดสอนงาน ไว้วันที่ 16 พฤจิ ออกไปให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-11-16', 'title': 'สอนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-24.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดไปออกอีเว้นวันศุกร์หน้า ไปเป็นสี่ทุ่ม"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-09-05', 'time': '22:00', 'title': 'ไปออกอีเว้น'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-13.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดอัปเดตงานวันเสาร์หน้าออกหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-08-23', 'title': 'อัปเดตงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-03.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดสัมภาษณ์วันที่ 30 มิถุนา ออกที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2026-06-30', 'title': 'สัมภาษณ์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-02.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูนัดหมายวันที่ 13 มิถุนาหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-06-13'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-03.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันที่ 4 สิงหา ให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2026-08-04'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-23.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดทำการบ้านกับเพื่อนวันเสาร์นี้ออกหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-09-27', 'title': 'ทำการบ้านกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-12.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาประชุมของวันเสาร์หน้า ไปเป็นสี่ทุ่มสี่สิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-01-25', 'time': '22:45', 'title': 'ประชุม'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-12.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 9 ตุลา ตอนสามทุ่ม ผมมีนัดคุยโปรเจกต์ ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-10-09', 'time': '21:00', 'title': 'คุยโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-06.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดปรึกษาโปรเจกต์ วันที่ 14 ธันวาคม เป็นเจ็ดโมงเช้า 45 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-12-14', 'time': '07:45', 'title': 'ปรึกษาโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-07.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดสัมภาษณ์วันที่ 9 กันยายน ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-09-09', 'title': 'สัมภาษณ์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-16.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดมอบหมายงานศุกร์หน้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-08-29', 'title': 'มอบหมายงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-16.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดประชุมอังคารที่จะถึงนี้ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-04-22', 'title': 'ประชุม'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-16.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดคุยไอเดียวันที่ 23 กรกฎา ออกที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2026-07-23', 'title': 'คุยไอเดีย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-14.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดไปออกอีเว้นของวันพุธหน้า ไปเป็นสี่โมงเย็น 15 นาทีแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-03-26', 'time': '16:15', 'title': 'ไปออกอีเว้น'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-07.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "วันจันทร์ที่จะถึงนี้มีนัดอะไรบ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-12-08'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-13.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดสอนงานพฤหัสนี้ตอนบ่ายสองโมง 45 นาทีให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-07-17', 'time': '14:45', 'title': 'สอนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-21.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดวิดีโอคอล วันที่ 13 มีนา เป็นตีสี่สี่สิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-03-13', 'time': '04:45', 'title': 'วิดีโอคอล'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-21.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดคุยงานหัวข้อ AI Buildersวันศุกร์หน้า ไปเป็นเก้าโมงเช้า 15 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-09-26', 'time': '09:15', 'title': 'คุยงานหัวข้อ AI Builders'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-13.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดสัมภาษณ์พฤหัสที่จะถึงนี้ออกที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-10-16', 'title': 'สัมภาษณ์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-02.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดอัปเดตงานอังคารที่จะถึงนี้ตอนห้าทุ่ม 45 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-12-02', 'time': '23:45', 'title': 'อัปเดตงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-21.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดวางแผนวันที่ 14 กุมภาพันธ์ ตอนบ่ายสองสี่ห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-02-14', 'time': '14:45', 'title': 'วางแผน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-24.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดทำการบ้านกับเพื่อนวันที่ 30 มีนาออกหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2026-03-30', 'title': 'ทำการบ้านกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-19.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดออกกำลังกายศุกร์หน้าออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-06-27', 'title': 'ออกกำลังกาย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-20.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดปรึกษาโปรเจกต์วันที่ 6 กรกฎา ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2026-07-06', 'title': 'ปรึกษาโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-27.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาทำการบ้านของ วันที่ 9 เมษายน ไปเป็นสี่โมงเย็น"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-04-09', 'time': '16:00', 'title': 'ทำการบ้าน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-13.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดรีวิวงานของวันที่ 25 ธันวาคม ไปเป็นสิบเอ็ดโมงครึ่งแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-12-25', 'time': '11:30', 'title': 'รีวิวงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-29.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดประชุมวันเสาร์หน้าตอนเที่ยงคืน 15 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-08-09', 'time': '00:15', 'title': 'ประชุม'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-29.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดเทรนงานของวันจันทร์ที่จะถึงนี้ ไปเป็นช่วงเช้าหกโมงครึ่งแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-09-29', 'time': '06:30', 'title': 'เทรนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-19.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดทำการบ้านศุกร์นี้ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-12-19', 'title': 'ทำการบ้าน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-25.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรวันที่ 25 พฤษภาคม บ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-05-25'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-14.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูนัดหมายวันพุธหน้าหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-09-24'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-17.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 19 ธันวา ตอนห้าทุ่ม 45 นาที มีนัดสัมภาษณ์ ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-12-19', 'time': '23:45', 'title': 'สัมภาษณ์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-05.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดคุยลูกค้าวันจันทร์ที่จะถึงนี้ออกหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-10-06', 'title': 'คุยลูกค้า'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-03.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดอัปเดตงานวันที่ 17 มิถุนา"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-06-17', 'title': 'อัปเดตงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-28.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันที่ 6 พฤษภา ให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2026-05-06'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-24.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาคุยไอเดียของวันพฤหัสนี้ ไปเป็นสี่โมงสิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-07-24', 'time': '16:15', 'title': 'คุยไอเดีย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-28.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดรีวิวงานของวันที่ 22 กุมภาพันธ์ ไปเป็นบ่ายสามโมงครึ่งแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-02-22', 'time': '15:30', 'title': 'รีวิวงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-22.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดวิดีโอคอลของวันที่ 8 มิถุนา ไปเป็นบ่ายสามสี่สิบห้าแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-06-08', 'time': '15:45', 'title': 'วิดีโอคอล'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-15.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดทำการบ้านศุกร์หน้าตอนบ่ายโมง 45 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-01-24', 'time': '13:45', 'title': 'ทำการบ้าน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-06.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดคุยงานจันทร์ที่จะถึงนี้ตอนช่วงเย็นหกโมง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-03-10', 'time': '18:00', 'title': 'คุยงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-11-24.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดเล่นเกมกับเพื่อนพุธที่จะถึงนี้ตอนช่วงเช้าหกโมงสี่ห้าให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-11-26', 'time': '06:45', 'title': 'เล่นเกมกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-08-27.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดพรีเซนต์งานของวันที่ 4 เมษายน ไปเป็นเจ็ดโมงครึ่งแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-04-04', 'time': '07:30', 'title': 'พรีเซนต์งาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-18.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดคุยลูกค้าวันที่ 21 เมษา ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-04-21', 'title': 'คุยลูกค้า'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-13.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดพรีเซนต์งานวันที่ 13 มิถุนา ตอนช่วงเย็นหกโมงครึ่ง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-06-13', 'time': '18:30', 'title': 'พรีเซนต์งาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-11.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดคุยไอเดียวันที่ 12 มีนา"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2026-03-12', 'title': 'คุยไอเดีย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-29.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "วันศุกร์หน้ามีนัดอะไรบ้าง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-02-07'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-24.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดคุยงานหัวข้อ AI Buildersวันที่ 5 พฤจิ ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-11-05', 'title': 'คุยงานหัวข้อ AI Builders'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-11.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดคุยไอเดียวันที่ 17 สิงหาคม ตอนเที่ยงคืนครึ่ง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-08-17', 'time': '00:30', 'title': 'คุยไอเดีย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-29.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาถกกันเรื่องโปรเจคของวันเสาร์หน้า ไปเป็นบ่ายสองโมง 45 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-12-27', 'time': '14:45', 'title': 'ถกกันเรื่องโปรเจค'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-28.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดนำเสนอศุกร์นี้ตอนหกโมงเย็น 30 นาทีให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-10-31', 'time': '18:30', 'title': 'นำเสนอ'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-09.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาปรึกษาโปรเจกต์ของวันศุกร์หน้า ไปเป็นตีห้า 15 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-05-16', 'time': '05:15', 'title': 'ปรึกษาโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-10.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดคุยลูกค้า วันที่ 6 พฤษภา เป็นตีสี่ 30 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-05-06', 'time': '04:30', 'title': 'คุยลูกค้า'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-18.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูนัดหมายวันที่ 16 มีนาคมหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2026-03-16'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-29.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูนัดหมายวันพฤหัสที่จะถึงนี้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-10-30'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-22.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดนำเสนอ วันที่ 17 พฤจิ ไปเป็นตีสี่สิบห้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2026-11-17', 'time': '04:15', 'title': 'นำเสนอ'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-12.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 22 มีนาคม ตอนเจ็ดโมงเช้า 45 นาที ผมมีนัดประชุม ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-03-22', 'time': '07:45', 'title': 'ประชุม'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-20.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลาตรวจงานของ วันที่ 22 ตุลา ไปเป็นสามทุ่ม"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-10-22', 'time': '21:00', 'title': 'ตรวจงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-05.\n\nCurrent Day: Saturday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดติดตามงาน วันที่ 19 กันยา เป็นตีสี่ 30 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-09-19', 'time': '04:30', 'title': 'ติดตามงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-25.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "ดูนัดหมายวันเสาร์หน้าทั้งหมด"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-06-07'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-04.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "เลื่อนเวลานัดรีวิวงาน วันที่ 8 เมษา ไปเป็นช่วงเช้าหกโมงครึ่ง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-04-08', 'time': '06:30', 'title': 'รีวิวงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-06.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มแจ้งเตือนนัดมอบหมายงานวันที่ 30 ธันวา ตอนสิบโมง"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-12-30', 'time': '10:00', 'title': 'มอบหมายงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-07.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เพิ่มนัดทำการบ้านกับเพื่อนวันที่ 15 เมษายน ตอนเจ็ดโมงสามสิบ"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-04-15', 'time': '07:30', 'title': 'ทำการบ้านกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-07.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เช็กตารางวันที่ 21 กุมภาพันธ์ ให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2026-02-21'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-10.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 14 สิงหาคม ตอนเที่ยงคืนสามสิบ ผมมีนัดไปออกอีเว้น ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-08-14', 'time': '00:30', 'title': 'ไปออกอีเว้น'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-05-15.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 2 กุมภา ตอนเที่ยงครึ่ง ผมมีนัดติดตามงาน ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-02-02', 'time': '12:30', 'title': 'ติดตามงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-07-30.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรบ้างวันเสาร์หน้า"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-08-09'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-03-27.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูนัดหมายวันพุธหน้าหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-04-09'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-06.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "วันศุกร์หน้าตอนสิบโมงครึ่ง ผมมีนัดรีวิวงาน ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-10-17', 'time': '10:30', 'title': 'รีวิวงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-23.\n\nCurrent Day: Tuesday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูตารางศุกร์ที่จะถึงนี้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-09-26'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-04-07.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดถกกันเรื่องโปรเจคพฤหัสที่จะถึงนี้"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-04-10', 'title': 'ถกกันเรื่องโปรเจค'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-12-22.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "วันอังคารหน้าตอนเที่ยงคืนสิบห้า มีนัดสอนงาน ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-12-30', 'time': '00:15', 'title': 'สอนงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-02-24.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดปรึกษาโปรเจกต์วันที่ 22 กันยา ออกที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-09-22', 'title': 'ปรึกษาโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-19.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดรีวิวงานของวันจันทร์หน้า ไปเป็นเที่ยงคืน 30 นาทีแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-01-27', 'time': '00:30', 'title': 'รีวิวงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-12.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "ขอดูตารางมะรืนหน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-06-14'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-01.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "มีนัดอะไรบ้างวันที่ 15 ธันวา"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'view_event_date', 'arguments': {'date': '2025-12-15'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-29.\n\nCurrent Day: Wednesday."
+      },
+      {
+        "role": "user",
+        "content": "ลบนัดเล่นเกมกับเพื่อนอาทิตย์นี้ออก"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-11-02', 'title': 'เล่นเกมกับเพื่อน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-04.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 14 เมษา ตอนตีหนึ่งสี่สิบห้า มีนัดสรุปงาน ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-04-14', 'time': '01:45', 'title': 'สรุปงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-06-02.\n\nCurrent Day: Monday."
+      },
+      {
+        "role": "user",
+        "content": "วันพฤหัสหน้าตอนตีสามสามสิบ มีนัดคุยไอเดีย ช่วยเพิ่มลงตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2025-06-12', 'time': '03:30', 'title': 'คุยไอเดีย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-17.\n\nCurrent Day: Friday."
+      },
+      {
+        "role": "user",
+        "content": "วันที่ 23 พฤษภา ตอนตีห้า ผมมีนัดปรึกษาโปรเจกต์ ช่วยลงไว้ในตารางให้หน่อย"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'add_event_date', 'arguments': {'date': '2026-05-23', 'time': '05:00', 'title': 'ปรึกษาโปรเจกต์'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-09-21.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดออกกำลังกายของวันที่ 4 ธันวา ไปเป็นตีหนึ่งสามสิบแทน"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-12-04', 'time': '01:30', 'title': 'ออกกำลังกาย'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-01-23.\n\nCurrent Day: Thursday."
+      },
+      {
+        "role": "user",
+        "content": "เปลี่ยนเวลานัดตรวจงาน วันที่ 29 ธันวา เป็นเก้าโมงเช้า 30 นาที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'update_event', 'arguments': {'date': '2025-12-29', 'time': '09:30', 'title': 'ตรวจงาน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.\n\nCurrent Date: 2025-10-26.\n\nCurrent Day: Sunday."
+      },
+      {
+        "role": "user",
+        "content": "เอานัดวางแผนพฤหัสนี้ออกที"
+      },
+      {
+        "role": "assistant",
+        "content": "<|im_start|>assistant\n<think>\n\n</think>\n\n<tool_call>\n{'name': 'delete_event_date', 'arguments': {'date': '2025-11-06', 'title': 'วางแผน'}}\n</tool_call><|im_end|>"
+      }
+    ]
+  }
+]

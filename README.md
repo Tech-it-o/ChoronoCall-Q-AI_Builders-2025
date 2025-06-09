@@ -1,7 +1,5 @@
 # ChoronoCall-Q-AI_Builders-2025
 
-A project for fine-tuning the Qwen3 model to better understand scheduling-related natural language commands and convert them into structured calendar actions.
-
 โปรเจกต์สำหรับ Fine-tune โมเดล Qwen3 ให้สามารถเข้าใจคำสั่งที่เกี่ยวข้องกับการจัดตารางเวลา และแปลงเป็นข้อมูลแบบมีโครงสร้างได้อย่างแม่นยำยิ่งขึ้น
 
 ---

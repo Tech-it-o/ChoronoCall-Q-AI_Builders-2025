@@ -6,6 +6,7 @@
 
 ## โครงสร้างโปรเจค
 
+```bash
 .
 ├── Data
 │ └── (ไฟล์ JSON ที่ได้มาจากโค้ดเจน, DataSplitter, Converter)

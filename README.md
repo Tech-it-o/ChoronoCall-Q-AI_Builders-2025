@@ -9,7 +9,7 @@
 ```bash
 .
 ├── Data
-│ └── (ไฟล์ JSON ที่ได้มาจากโค้ดเจน, DataSplitter, Converter)
+│ └── (ไฟล์ JSON ที่ได้มาจากโค้ดเจน, DataSplitter + Converter)
 ├── notebook
 │ ├── Evaluate
 │ │ ├── (โฟลเดอร์โมเดลต่างๆ)
@@ -20,12 +20,14 @@
 │ │ │ └── notebook สำหรับทำ Accuracy และ ConfusedMatrix
 │ ├── Finetuned
 │ │ ├── (โฟลเดอร์โมเดลต่างๆ)
-│ │ │ ├── notebook สำหรับ Convert+Split+สลับข้อมูลให้อยู่ในรูปแบบพร้อม Finetune + รวม Data 2 ชุด
 │ │ │ ├── notebook สำหรับ Finetune โมเดล
-│ │ │ ├── json Data 1
-│ │ │ ├── json Data 2
-│ │ │ ├── json Data ที่ถูก Convert จาก notebook อันแรก (พร้อมสำหรับ Finetune)
+│ │ │ ├── json Data (พร้อมสำหรับ Finetune)
 │ │ │ └── json tool
+│ ├── Spliter_and_Converter
+│ │ ├── notebook สำหรับ Convert+Split+สลับข้อมูลให้อยู่ในรูปแบบพร้อม Finetune + รวม Data 2 ชุด
+│ │ ├── json Data 1
+│ │ ├── json Data 2
+│ │ └── json Data ที่ถูก Convert จาก notebook อันแรก (พร้อมสำหรับ Finetune)
 ├── script
 │ ├── โฟลเดอร์เก็บไฟล์ JSON component สำหรับสร้าง Dataset
 │ ├── Python script สำหรับ Generate Dataset แบบที่ 1
@@ -41,7 +43,8 @@
 ## รายละเอียดแต่ละโฟลเดอร์
 
 ### 1. Data
-เก็บไฟล์ JSON ที่ได้จากการสร้างข้อมูลเบื้องต้น (Code Gen), การแบ่งข้อมูล (DataSplitter) และการแปลงข้อมูล (Converter)
+โฟลเดอร์นี้เก็บไฟล์ JSON ที่ผ่านการสร้าง แบ่ง และแปลงข้อมูลเรียบร้อยแล้ว  
+จนได้ Data ที่พร้อมสำหรับนำไปใช้ในการ Finetune โมเดล
 
 ### 2. notebook
 
@@ -49,7 +52,7 @@
   โฟลเดอร์สำหรับเก็บโมเดลแต่ละชุด พร้อมไฟล์ JSON สำหรับการประเมินผล  
   - ไฟล์ JSON สำหรับ Evaluate  
   - ไฟล์ JSON ที่โมเดลทำการ Predict  
-  - ไฟล์ JSON สำหรับ Tool ต่างๆ  
+  - ไฟล์ JSON สำหรับ Tool  
   - Notebook สำหรับให้โมเดล Predict  
   - Notebook สำหรับคำนวณ Accuracy และสร้าง Confusion Matrix
 
@@ -59,7 +62,7 @@
   - Notebook สำหรับ Finetune โมเดล  
   - ไฟล์ JSON Data 1 และ Data 2  
   - ไฟล์ JSON ที่ถูก Convert แล้ว พร้อมสำหรับ Finetune  
-  - ไฟล์ JSON Tool ต่างๆ
+  - ไฟล์ JSON Tool
 
 ### 3. script
 
@@ -67,11 +70,11 @@
 - โฟลเดอร์เก็บ JSON component สำหรับสร้าง Dataset  
 - Python script สำหรับ Generate Dataset แบบที่ 1  
 - Python script สำหรับ Generate Dataset แบบที่ 2  
-- dataset.json แบบที่ 1 และ แบบที่ 2
+- dataset.json แบบที่ 1 และ แบบที่ 2 หลังผ่านการสร้าง
 
 ### 4. streamlit_deploy
 
-ไฟล์สำหรับการ Deploy ระบบด้วย Streamlit
+ไฟล์สำหรับการ Deploy ด้วย Streamlit
 
 ---
 
@@ -84,11 +87,3 @@
 5. ใช้ไฟล์ใน `streamlit_deploy` สำหรับ Deploy ระบบให้ใช้งานผ่าน Web Interface
 
 ---
-
-## ติดต่อ
-
-ถ้าต้องการสอบถามข้อมูลเพิ่มเติมหรือช่วยเหลือ สามารถติดต่อได้ที่...
-
----
-
-ขอบคุณที่ใช้โปรเจคนี้ครับ!

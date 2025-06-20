@@ -169,5 +169,5 @@ Deployment files for launching the scheduling assistant using Streamlit interfac
 
 ## 👾 Link
 
-Medium : https://medium.com/@techitotamani.irl/aib2025-chronocall-q-f46820ba5caa
-Space : https://aib-2025-chronocall-q-01.streamlit.app/
+- Medium : https://medium.com/@techitotamani.irl/aib2025-chronocall-q-f46820ba5caa
+- Space : https://aib-2025-chronocall-q-01.streamlit.app/

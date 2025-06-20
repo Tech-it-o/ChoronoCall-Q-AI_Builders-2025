@@ -164,3 +164,10 @@ Deployment files for launching the scheduling assistant using Streamlit interfac
 
 5. Deploy the full system using files in the `streamlit_deploy` folder through Streamlit Web UI.  
    ใช้ไฟล์ใน `streamlit_deploy` สำหรับ Deploy ระบบให้ใช้งานผ่าน Web Interface  
+
+---
+
+## 👾 Link
+
+Medium : https://medium.com/@techitotamani.irl/aib2025-chronocall-q-f46820ba5caa
+Space : https://aib-2025-chronocall-q-01.streamlit.app/
